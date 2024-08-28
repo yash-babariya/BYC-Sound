@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://the-sound-supply.vercel.app/sitemap.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://the-sound-supply.vercel.app/
