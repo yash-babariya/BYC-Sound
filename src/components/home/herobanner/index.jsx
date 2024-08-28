@@ -1,19 +1,20 @@
-import React from 'react'
-import './herobanner.scss'
+import React from 'react';
+import './herobanner.scss';
+
 export default function Herobanner() {
     return (
-        <div className="hero-banner">
+        <header className="hero-banner" role="banner" aria-label="The Sound Supply Brand Days Promotion">
             <div className="container">
                 <section>
-                    <div className="contant">
-                        <h2><span>The Sound Supply</span> Brand Days</h2>
-                        <p>Up to 50% Off on Your Favourite Products.Bestsellers</p>
+                    <article className="content">
+                        <h1><span>The Sound Supply</span> Brand Days</h1>
+                        <p>Up to 50% Off on Your Favourite Products. Bestsellers</p>
                         <div className="shop-now-btn">
-                            <button>Shop Now</button>
+                            <button aria-label="Shop Now Button">Shop Now</button>
                         </div>
-                    </div>
+                    </article>
                 </section>
             </div>
-        </div>
-    )
+        </header>
+    );
 }
