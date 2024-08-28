@@ -1,10 +1,15 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import DefaultLayout from "./defaultLayout/defaultLayout";
-import Home from "../components/home";
-import Category from "./category";
-import Signup from "../components/form/signup";
-import Login from "../components/form/login";
+const Home = React.lazy(() => import('../components/home'));
+const Category = React.lazy(() => import('./category'));
+const Signup = React.lazy(() => import('../components/form/signup'));
+const Login = React.lazy(() => import('../components/form/login'));
+
+// import Signup from "../components/form/signup";
+// import Login from "../components/form/login";
+
+
 
 
 const router = createBrowserRouter([
