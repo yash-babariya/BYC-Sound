@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /private/
 Allow: /
-Sitemap: https://the-sound-supply.vercel.app
+
+Sitemap: https://the-sound-supply.vercel.app/sitemap.xml
