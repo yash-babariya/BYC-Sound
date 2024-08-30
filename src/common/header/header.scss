@@ -166,7 +166,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: var(--theme-white-background);
+    background-color: var(--theme-dark-background);
     overflow-x: hidden;
     padding-top: 70px;
     transition: 0.5s;
@@ -181,8 +181,8 @@
         flex-direction: column;
         overflow: hidden;
         max-height: 0;
-        background-color: #f3f3f3;
-        transition: max-height 0.5s ease, padding 0.3s ease;
+        background-color: #080707;
+        transition: max-height 1s ease, padding 0.3s ease;
         padding: 0 0;
 
         &.open {
@@ -192,9 +192,8 @@
 
         a {
             padding: 10px 15px 10px 40px;
-            color: var(--theme-primary-color);
+            color: var(--theme-white-text);
             font-size: 20px;
-
         }
     }
 
@@ -205,6 +204,7 @@
         right: 40px;
         font-size: 35px;
         cursor: pointer;
+        color: var(--theme-white-text);
     }
 
     .menu-item {
@@ -212,7 +212,7 @@
         padding: 20px 15px;
         text-decoration: none;
         font-size: 25px;
-        color: #080707;
+        color: var(--theme-white-text);
         display: block;
         transition: 0.3s;
         border: 2px solid black;

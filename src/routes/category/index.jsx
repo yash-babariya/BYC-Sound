@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import HeadphonesAndEarbuds from "../../components/categoryPages/headphonesAndEarbuds";
 
 const Category = () => {
     const { category } = useParams();
@@ -14,14 +15,17 @@ const Category = () => {
         case 'home-audio':
             content = <h1>Home Audio</h1>;
             break;
-        case 'headphones-and-earbuds':
-            content = <h1>Headphones and Earbuds</h1>;
+        case 'headphones&earbuds':
+            content = <HeadphonesAndEarbuds />;
             break;
         case 'gaming':
             content = <h1>Gaming</h1>;
             break;
-        case 'car-marine':
+        case 'car&marine':
             content = <h1>Car & Marine</h1>;
+            break;
+        case 'pro-audio':
+            content = <h1>pro Audio</h1>;
             break;
         default:
             content = <h1>Not Found</h1>;
