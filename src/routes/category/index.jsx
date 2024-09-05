@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import HeadphonesAndEarbuds from "../../components/categoryPages/headphonesAndEarbuds";
+import DelayedSuspense from "../../common/loader/DelayedSuspense/DelayedSuspense";
 
 const Category = () => {
     const { category } = useParams();
@@ -16,7 +17,7 @@ const Category = () => {
             content = <h1>Home Audio</h1>;
             break;
         case 'headphones&earbuds':
-            content = <HeadphonesAndEarbuds />;
+            content = <DelayedSuspense><HeadphonesAndEarbuds /></DelayedSuspense>;
             break;
         case 'gaming':
             content = <h1>Gaming</h1>;

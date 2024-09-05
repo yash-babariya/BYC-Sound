@@ -1,14 +1,13 @@
 import React from 'react';
-import './Loader.scss'; // Import a stylesheet for loader styling
+import './loader.scss';
+import logo from '../../assets/logo/logo.webp';
 
-const Loader = () => {
+export default function Loader() {
     return (
         <div className="loader">
-            {/* You can customize this loader */}
-            <div className="spinner"></div>
-            <p>Loading...</p>
+            <div className="logo-container circle pulse">
+                <img src={logo} alt="Company Logo" className="logo" />
+            </div>
         </div>
     );
-};
-
-export default Loader;
+}
