@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import headphone1 from "../assets/images/headphone1.webp";
 import headphone1_1 from "../assets/images/headphone1.1.webp";
 import headphone1_2 from "../assets/images/headphone1.2.webp";
@@ -38,7 +37,7 @@ const categoryApi = [
                 type: "Headphones",
                 items: [
                     {
-                        objectId: uuidv4(),
+                        id: "12899hy59590jkp",
                         headphoneImg: [headphone1, headphone1_1, headphone1_2, headphone1_3, headphone1_4, headphone1_5, headphone1_6],
                         name: "boAt Rockerz 550 FM ",
                         desc: "Wireless Headphone with 50mm dynamic drivers, Bluetooth v5.0, 500mAh battery, 20H Playback",
@@ -55,7 +54,7 @@ const categoryApi = [
                         ]
                     },
                     {
-                        objectId: uuidv4(),
+                        id: "12ty89956550jkp",
                         headphoneImg: [headphone2, headphone2_1, headphone2_2, headphone2_3, headphone2_4, headphone2_5, headphone2_6],
                         name: "Rockerz 450 POLO",
                         desc: "Wireless Headphone with 50mm dynamic drivers, Bluetooth v5.0, 500mAh battery, 20H Playback",

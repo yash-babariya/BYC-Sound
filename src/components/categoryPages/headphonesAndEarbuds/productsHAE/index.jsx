@@ -17,7 +17,7 @@ export default function ProductsHeadphonesAndEarbuds() {
                         {
                             HAE_DATA.map((item) => {
                                 return (
-                                    <div className="cart" key={item.objectId}>
+                                    <div className="cart" key={item.id}>
                                         <div className="rating-and-review">
                                             <div className="rating">
                                                 <RiStarSFill className='icon' />
