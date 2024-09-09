@@ -1,5 +1,5 @@
 import React from 'react';
-import './loader.scss';
+import './Loader.scss';
 
 import logo from '../../assets/logo/logo.webp';
 
