@@ -8,7 +8,11 @@ const Category = () => {
     let content;
     switch (category) {
         case 'personalize':
-            content = <h1>Personalize</h1>;
+            content = (
+                <DelayedSuspense>
+                    <h1>Personalize</h1>
+                </DelayedSuspense>
+            );
             break;
         case 'portable-speaker':
             content = <h1>Portable Speaker</h1>;
@@ -17,7 +21,11 @@ const Category = () => {
             content = <h1>Home Audio</h1>;
             break;
         case 'headphones&earbuds':
-            content = <DelayedSuspense><HeadphonesAndEarbuds /></DelayedSuspense>;
+            content = (
+                <DelayedSuspense>
+                    <HeadphonesAndEarbuds />
+                </DelayedSuspense>
+            );
             break;
         case 'gaming':
             content = <h1>Gaming</h1>;

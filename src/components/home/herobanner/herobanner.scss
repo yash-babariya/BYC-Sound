@@ -2,7 +2,7 @@
 
 .hero-banner {
     width: 100%;
-    height: calc(100vh - 98.23px);
+    height: calc(100vh - var(--header-height));
     background-image: url('../../../assets/images/herobanner2.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,11 +13,11 @@
     position: relative;
 
     @media (max-width: 1550px) {
-        height: calc(100vh - 88.53px);
+        height: calc(100vh - var(--header-sm-height));
     }
 
     @media (max-width: 1024px) {
-        height: calc(100vh - 78.53px);
+        height: calc(100vh - var(--header-lg-height));
         background-image: none;
 
         &::before {
@@ -36,7 +36,11 @@
     }
 
     @media (max-width: 420px) {
-        height: calc(100vh - 68.83px);
+        height: calc(100vh - var(--header-lsf-height));
+    }
+
+    @media (max-width: 380px) {
+        height: calc(100vh - var(--header-lsm-height));
     }
 
     .container {

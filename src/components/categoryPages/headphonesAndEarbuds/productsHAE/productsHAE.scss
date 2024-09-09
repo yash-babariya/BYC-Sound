@@ -1,0 +1,146 @@
+@import "../../../../styles/index.scss";
+
+
+.products-headphones-and-earbuds {
+    padding: 100px 0;
+    background-color: var(--theme-light-background);
+
+    @media (max-width: 768px) {
+        padding: 80px 0;
+    }
+
+    @media (max-width: 576px) {
+        padding: 60px 0;
+    }
+
+    section {
+        .carts {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+
+            .cart {
+                background-color: var(--theme-white-background);
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                .img {
+                    width: 100%;
+                    height: 200px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        object-position: center;
+                    }
+                }
+
+                .rating-and-review {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .rating {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+
+                        .icon {
+                            font-size: 20px;
+                            color: var(--theme-yellow-text);
+                        }
+                    }
+
+                    .review {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+
+                        .icon {
+                            font-size: 20px;
+                            color: var(--theme-primary-text);
+                        }
+                    }
+                }
+
+                .details {
+
+                    .title {
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 1.2;
+                            letter-spacing: 1px;
+                            color: var(--theme-dark-text);
+                            text-align: center;
+                        }
+                    }
+
+                    .rate {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                        margin-top: 10px;
+
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 1.2;
+                            letter-spacing: 1px;
+                            color: var(--theme-dark-text);
+                            text-align: center;
+                        }
+
+                        del {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 1.2;
+                            letter-spacing: 1px;
+                            color: var(--theme-muted-text);
+                            text-align: center;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-weight: 500;
+                            line-height: 1.2;
+                            letter-spacing: 1px;
+                            color: var(--theme-green-text);
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .add-to-cart {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10px;
+
+                    button {
+                        width: 100%;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        background-color: var(--theme-dark-background);
+                        color: var(--theme-white-text);
+                        border: none;
+                        font-size: 20px;
+                        font-weight: 400;
+                        letter-spacing: 0.5px;
+                        transition: .3s ease-in-out;
+
+                        &:hover {
+                            background-color: var(--theme-black-background);
+                            color: var(--theme-white-text);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
