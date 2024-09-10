@@ -117,7 +117,7 @@
                     display: inline-block;
                     font-size: 18px;
                     font-weight: 500;
-                    color: var(--theme-black-text);
+                    color: var(--theme-primary-dark-text);
                     text-decoration: none;
                     margin: 0 12px;
                     text-transform: capitalize;
@@ -137,7 +137,7 @@
                         width: 0;
                         height: 2px;
                         margin-top: 5px;
-                        background-color: var(--theme-dark-text);
+                        background-color: var(--theme-primary-dark-text);
                         transition: .3s ease-in-out;
                     }
 
@@ -170,7 +170,7 @@
 
                     .icon {
                         font-size: 25px;
-                        color: var(--theme-black-text);
+                        color: var(--theme-primary-dark-text);
                         margin: 0 10px;
                         transition: .3s ease-in-out;
 
@@ -191,7 +191,7 @@
                     p {
                         font-size: 12px;
                         text-transform: capitalize;
-                        color: var(--theme-black-text);
+                        color: var(--theme-primary-dark-text);
 
                         @media (max-width: 420px) {
                             font-size: 10px;
@@ -220,7 +220,7 @@
 
                 .icon {
                     font-size: 30px;
-                    color: var(--theme-black-text);
+                    color: var(--theme-primary-dark-text);
                     cursor: pointer;
 
                     @media (max-width: 420px) {
@@ -239,7 +239,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: var(--theme-dark-background);
+    background-color: var(--theme-primary-dark-background);
     overflow-x: hidden;
     padding-top: 70px;
     transition: 0.5s;
@@ -254,7 +254,7 @@
         flex-direction: column;
         overflow: hidden;
         max-height: 0;
-        background-color: #080707;
+        background-color: var(--theme-light-beige-background);
         transition: max-height 1s ease, padding 0.3s ease;
         padding: 0 0;
 
@@ -265,7 +265,7 @@
 
         a {
             padding: 10px 15px 10px 40px;
-            color: var(--theme-white-text);
+            color: var(--theme-primary-light-text);
             font-size: 20px;
         }
     }

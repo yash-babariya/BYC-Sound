@@ -1,10 +1,30 @@
 :root {
     //header size 
-    --header-height: 102.03px;
-    --header-sm-height: 92.36px;
-    --header-lg-height: 82.36px;
-    --header-lsf-height: 72.69px;
-    --header-lsm-height: 63.02px;
+    --header-height: 92.09px;
+    --header-sm-height: 84.08px;
+    --header-lg-height: 74.08px;
+    --header-lsf-height: 66.06px;
+    --header-lsm-height: 58.05px;
+
+
+    //theme color
+
+    --theme-primary-dark-background: #1A3636;
+    --theme-primary-dark-text: #1A3636;
+    --theme-primary-dark-border: #1A3636;
+
+    --theme-primary-light-background: #40534C;
+    --theme-primary-light-text: #40534C;
+    --theme-primary-light-border: #40534C;
+
+
+    --theme-light-green-background: #677D6A;
+    --theme-light-green-text: #677D6A;
+    --theme-light-green-border: #677D6A;
+
+    --theme-light-beige-background: #D6BD98;
+    --theme-light-beige-text: #D6BD98;
+    --theme-light-beige-border: #D6BD98;
 
     --theme-black-background: #000000;
     --theme-black-text: #000000;

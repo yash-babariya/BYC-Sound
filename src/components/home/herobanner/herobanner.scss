@@ -3,15 +3,14 @@
 .hero-banner {
     width: 100%;
     height: calc(100vh - var(--header-height));
-    background-image: url('../../../assets/images/herobanner2.webp');
+    background-image: url('../../../assets/images/herobanner.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    filter: grayscale(100%);
 
     @media (max-width: 1550px) {
         height: calc(100vh - var(--header-sm-height));
@@ -62,12 +61,13 @@
 
             .content {
 
-                @media (max-width: 1024px) {
+                @media (max-width: 1550px) {
                     padding: 30px 20px;
                     background-color: rgba(0, 0, 0, 0);
                     backdrop-filter: blur(10px);
                     -webkit-backdrop-filter: blur(10px);
                 }
+
 
                 @media (max-width: 768px) {
                     max-width: 100%;
@@ -82,7 +82,7 @@
                     font-size: 60px;
                     font-weight: 900;
                     letter-spacing: 0.5px;
-                    color: var(--theme-dark-text);
+                    color: var(--theme-primary-dark-text);
 
                     @media (max-width: 1800px) {
                         font-size: 55px;
@@ -97,7 +97,7 @@
                     }
 
                     @media (max-width: 420px) {
-                        background-color: var(--theme-dark-background);
+                        background-color: var(--theme-primary-dark-background);
                         color: var(--theme-white-text);
                         padding: 5px 10px;
                     }
@@ -105,7 +105,7 @@
                     span {
                         padding: 5px 10px;
                         color: var(--theme-white-background);
-                        background-color: var(--theme-dark-background);
+                        background-color: var(--theme-primary-dark-background);
 
                         @media (max-width: 500px) {
                             font-size: 30px; // Adjust for smaller screens
@@ -122,7 +122,7 @@
                     font-size: 20px;
                     font-weight: 400;
                     letter-spacing: 0.5px;
-                    color: var(--theme-dark-text);
+                    color: var(--theme-primary-dark-text);
 
                     @media (max-width: 1550px) {
                         font-size: 18px;
@@ -138,7 +138,7 @@
 
                     button {
                         padding: 10px 20px;
-                        background-color: var(--theme-dark-background);
+                        background-color: var(--theme-primary-dark-background);
                         color: var(--theme-white-text);
                         border: none;
                         font-size: 20px;

@@ -25,7 +25,7 @@ export default function ProductsHeadphonesAndEarbuds() {
                                             </div>
                                             <div className="review">
                                                 <MdVerified className='icon' />
-                                                {item.review}
+                                                <p>{item.review}</p>
                                             </div>
                                         </div>
                                         <div className="img">

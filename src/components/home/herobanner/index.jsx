@@ -7,7 +7,7 @@ export default function Herobanner() {
             <div className="container">
                 <section>
                     <article className="content">
-                        <h1><span>BYC</span> Brand Days</h1>
+                        <h1><span>BYC Sound</span> Brand Days</h1>
                         <p>Up to 50% Off on Your Favourite Products. Bestsellers</p>
                         <div className="shop-now-btn">
                             <button aria-label="Shop Now Button">Shop Now</button>
