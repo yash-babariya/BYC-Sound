@@ -6,6 +6,7 @@ import Category from "./category";
 import Signup from "../components/form/signup";
 import Login from "../components/form/login";
 import DelayedSuspense from "../common/loader/DelayedSuspense/DelayedSuspense";
+import ProductInfo from "../components/productInfo";
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "/:category",
                 element: <Category />,
+            },
+            {
+                path: "/productinfo",
+                element: <ProductInfo />,
             }
         ]
     },

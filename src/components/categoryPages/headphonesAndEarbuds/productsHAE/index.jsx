@@ -3,11 +3,15 @@ import './productsHAE.scss';
 import categoryApi from '../../../../categoryApi/categoryApi';
 import { MdVerified } from "react-icons/md";
 import { RiStarSFill } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 export default function ProductsHeadphonesAndEarbuds() {
 
     const HAE_DATA = categoryApi[3].product[0].items
-    console.log(HAE_DATA)
+
+    const showInfo = (e) => {
+        localStorage.setItem('id', JSON.stringify(e))
+    }
 
     return (
         <div className='products-headphones-and-earbuds'>
@@ -17,7 +21,7 @@ export default function ProductsHeadphonesAndEarbuds() {
                         {
                             HAE_DATA.map((item) => {
                                 return (
-                                    <div className="cart" key={item.id}>
+                                    <Link to={'/productinfo'} className="cart" onClick={() => showInfo(item.id)} key={item.id}>
                                         <div className="rating-and-review">
                                             <div className="rating">
                                                 <RiStarSFill className='icon' />
@@ -45,7 +49,7 @@ export default function ProductsHeadphonesAndEarbuds() {
                                         <div className="add-to-cart">
                                             <button>Add To Cart</button>
                                         </div>
-                                    </div>
+                                    </Link>
                                 )
                             })
                         }
