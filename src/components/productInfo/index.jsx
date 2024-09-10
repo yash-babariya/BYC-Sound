@@ -52,6 +52,10 @@ export default function ProductInfo() {
                                                     ))}
                                                 </ul>
                                             </div>
+                                            <div className="add-ri-cart-button">
+                                                <button>Add to Cart</button>
+                                                <button>Buy Now</button>
+                                            </div>
                                         </div>
                                     )
                                 }
