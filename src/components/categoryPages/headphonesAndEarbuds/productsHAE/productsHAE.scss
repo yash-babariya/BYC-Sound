@@ -52,7 +52,19 @@
                 }
 
                 @media (max-width: 576px) {
+                    width: 400px;
+                }
+
+                @media (max-width: 420px) {
                     width: 300px;
+                }
+
+                @media (max-width: 320px) {
+                    width: 280px;
+                }
+
+                @media (max-width: 320px) {
+                    width: 260px;
                 }
 
                 .img {
@@ -205,11 +217,11 @@
 
                     button {
                         width: 100%;
-                        padding: 10px 20px;
+                        padding: 8px 0;
                         background-color: var(--theme-primary-light-background);
                         color: var(--theme-white-text);
                         border: none;
-                        font-size: 20px;
+                        font-size: 16px;
                         font-weight: 400;
                         letter-spacing: 0.5px;
                         transition: .3s ease-in-out;
