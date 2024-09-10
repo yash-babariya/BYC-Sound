@@ -21,11 +21,11 @@ export default function ProductsHeadphonesAndEarbuds() {
                                         <div className="rating-and-review">
                                             <div className="rating">
                                                 <RiStarSFill className='icon' />
-                                                {item.rating}
+                                                <p>{item.rating}</p>
                                             </div>
                                             <div className="review">
                                                 <MdVerified className='icon' />
-                                                <p>{item.review}</p>
+                                                <p>{item.review} reviews</p>
                                             </div>
                                         </div>
                                         <div className="img">
