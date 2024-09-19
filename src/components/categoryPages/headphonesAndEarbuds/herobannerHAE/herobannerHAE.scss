@@ -31,16 +31,20 @@
                     font-size: 40px;
                 }
 
-                @media (max-width: 650px) {
+                @media (max-width: 620px) {
                     font-size: 35px;
                 }
 
-                @media (max-width: 576px) {
+                @media (max-width: 550px) {
+                    font-size: 32px;
+                }
+
+                @media (max-width: 480px) {
                     font-size: 30px;
                 }
 
                 @media (max-width: 450px) {
-                    font-size: 20px;
+                    font-size: 28px;
                 }
 
                 @media (max-width: 380px) {

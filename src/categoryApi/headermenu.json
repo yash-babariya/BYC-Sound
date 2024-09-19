@@ -1,0 +1,32 @@
+{
+    "categoryApi": [
+        {
+            "category": "customize",
+            "path": "/customize"
+        },
+        {
+            "category": "portable speaker",
+            "path": "/portable-speaker"
+        },
+        {
+            "category": "home audio",
+            "path": "/home-audio"
+        },
+        {
+            "category": "headphones&earbuds",
+            "path": "/headphones&earbuds"
+        },
+        {
+            "category": "gaming",
+            "path": "/gaming"
+        },
+        {
+            "category": "car & marine",
+            "path": "/car-and-marine"
+        },
+        {
+            "category": "pro audio",
+            "path": "/pro-audio"
+        }
+    ]
+}

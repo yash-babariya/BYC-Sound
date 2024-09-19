@@ -5,7 +5,6 @@ import Home from "../components/home";
 import Category from "./category";
 import Signup from "../components/form/signup";
 import Login from "../components/form/login";
-import DelayedSuspense from "../common/loader/DelayedSuspense/DelayedSuspense";
 import ProductInfo from "../components/productInfo";
 
 
@@ -13,17 +12,13 @@ const router = createBrowserRouter([
     {
         path: "/signup",
         element: (
-            <DelayedSuspense>
-                <Signup />
-            </DelayedSuspense>
+            <Signup />
         ),
     },
     {
         path: "/login",
         element: (
-            <DelayedSuspense>
-                <Login />
-            </DelayedSuspense>
+            <Login />
         ),
     },
     {
@@ -33,9 +28,7 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: (
-                    <DelayedSuspense>
-                        <Home />
-                    </DelayedSuspense>
+                    <Home />
                 ),
             },
             {
