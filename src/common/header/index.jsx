@@ -166,10 +166,10 @@ export default function Header({ isHomePage }) {
                             <SlUser className='icon user' />
                             <p>{translatedLabels.account}</p>
                         </Link>
-                    </div>
-
-                    <div onClick={toggleNav} className="menu">
-                        <HiMenu className='icon menu' />
+                        <div onClick={toggleNav} className="icons-content  menu">
+                            <HiMenu className='icon' />
+                            <p>Menu</p>
+                        </div>
                     </div>
                 </header>
             </div>

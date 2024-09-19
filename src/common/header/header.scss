@@ -53,20 +53,8 @@
             }
 
             @media (max-width: 1200px) {
-                grid-template-areas:
-                    "left center right";
-
-                > :first-child {
-                    grid-area: left;
-                }
-
-                > :nth-child(2) {
-                    grid-area: right;
-                }
-
-                > :nth-child(3) {
-                    grid-area: center;
-                }
+                display: flex;
+                justify-content: space-between;
             }
 
             @media (max-width: 380px) {
@@ -220,7 +208,7 @@
                         text-transform: capitalize;
                         color: var(--theme-primary-dark-text);
 
-                        @media (max-width: 576px) {
+                        @media (max-width: 420px) {
                             display: none;
                         }
                     }
@@ -233,16 +221,6 @@
                 @media (max-width: 1200px) {
                     display: flex;
                     justify-content: flex-end;
-                }
-
-                .icon {
-                    font-size: 30px;
-                    color: var(--theme-primary-dark-text);
-                    cursor: pointer;
-
-                    @media (max-width: 420px) {
-                        font-size: 25px;
-                    }
                 }
             }
         }
