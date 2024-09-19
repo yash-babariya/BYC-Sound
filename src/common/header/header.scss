@@ -221,10 +221,6 @@
                         color: var(--theme-primary-dark-text);
 
                         @media (max-width: 420px) {
-                            font-size: 10px;
-                        }
-
-                        @media (max-width: 380px) {
                             display: none;
                         }
                     }

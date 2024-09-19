@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './herobannerHAE.scss';
 import { IoHeadset } from "react-icons/io5";
 import categoryApi from '../../../../categoryApi/headermenu.json';
-import { translateText } from '../../../../utils/translate.js'; // Import translate function
+import { translateText } from '../../../../utils/translate.jsx'; // Import translate function
 import { useLanguage } from '../../../../utils/LanguageContext.jsx';
 
 export default function HerobannerHAE() {
