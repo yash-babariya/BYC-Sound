@@ -220,7 +220,7 @@
                         text-transform: capitalize;
                         color: var(--theme-primary-dark-text);
 
-                        @media (max-width: 420px) {
+                        @media (max-width: 576px) {
                             display: none;
                         }
                     }
