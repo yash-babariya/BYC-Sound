@@ -15,8 +15,8 @@ import { PiTranslate } from "react-icons/pi";
 
 import categoryApi from '../../categoryApi/headermenu.json';
 import { Link } from 'react-router-dom';
-import { translateText } from '../../utils/translate'; // Import translate function
-import { useLanguage } from '../../utils/LanguageContext'; // Import language context
+import { translateText } from '../../utils/translate.js'; // Import translate function
+import { useLanguage } from '../../utils/LanguageContext.jsx'; // Import language context
 
 const categories = categoryApi.categoryApi;
 
