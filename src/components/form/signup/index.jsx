@@ -98,9 +98,9 @@ export default function Signup() {
                             <label>password</label>
                             <input onChange={functionOnChange} type={showPassword ? "text" : "password"} name="password" />
                             {showPassword ? (
-                                <FaEyeSlash onClick={togglePasswordVisibility} className="password-icon" />
-                            ) : (
                                 <FaEye onClick={togglePasswordVisibility} className="password-icon" />
+                            ) : (
+                                <FaEyeSlash onClick={togglePasswordVisibility} className="password-icon" />
                             )}
                         </div>
                         <div className="signup-btn">

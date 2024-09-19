@@ -60,6 +60,8 @@ export default function Login() {
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
     };
+
+
     return (
         <div className="form-main">
             <div className="container">
@@ -82,14 +84,14 @@ export default function Login() {
                             <input
                                 onChange={functionOnChange}
                                 value={userObj.password}
-                                type="password"
+                                type={showPassword ? "text" : "password"}
                                 name="password"
                                 autoComplete="new-password"
                             />
                             {showPassword ? (
-                                <FaEyeSlash onClick={togglePasswordVisibility} className="password-icon" />
-                            ) : (
                                 <FaEye onClick={togglePasswordVisibility} className="password-icon" />
+                            ) : (
+                                <FaEyeSlash onClick={togglePasswordVisibility} className="password-icon" />
                             )}
                         </div>
                         <div className="signup-btn">
