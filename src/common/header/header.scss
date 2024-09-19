@@ -293,6 +293,9 @@
         font-size: 35px;
         cursor: pointer;
         color: var(--theme-white-text);
+        padding: 0;
+        background-color: transparent;
+        border: none;
     }
 
     .menu-item {
