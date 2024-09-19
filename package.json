@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
-    "@vitalets/google-translate-api": "^9.2.0",
     "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
     "language-translate": "^2.2.5",
     "nanoid": "^5.0.7",
     "react": "^18.3.1",
@@ -24,7 +24,8 @@
     "react-router-dom": "^6.26.2",
     "react-slick": "^0.30.2",
     "sass": "^1.77.8",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "translate": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
